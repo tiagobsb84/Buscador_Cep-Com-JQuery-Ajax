@@ -1,12 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Consultar CEP</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand titulo">Consulta CEP</a>
+            <div class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Digite o CEP">
+              <button class="btn btn-outline-success botao_consulta">Consulta</button>
+            </div>
+        </div>
+      </nav>
+      <div class="container">
+          <h3 class="titulo_tabela_cep">CEP</h3>
+        <table class="table table-dark table-striped">
+            <tbody>
+                <tr>
+                    <td>Cidade:</td>
+                    <td id="cidade">col1</td>
+                </tr>
+                <tr>
+                    <td>Estado:</td>
+                    <td id="estado">col2</td>
+                </tr>
+                <tr>
+                    <td>Bairro:</td>
+                    <td id="bairro">col3</td>
+                </tr>
+                <tr>
+                    <td>Endereço:</td>
+                    <td id="endereco">col4</td>
+                </tr>
+            </tbody>
+          </table>
+      </div>
+
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,13 @@
+.titulo {
+    font-weight: bold;
+}
+
+.botao_consulta {
+    background-color: rgb(57, 172, 153);
+    font-weight: bold;
+    color: black;
+}
+
+.titulo_tabela_cep {
+    margin-top: 30px;
+}
