@@ -8,6 +8,10 @@
     color: black;
 }
 
+.carregando {
+    font-weight: bold;
+}
+
 .titulo_tabela_cep {
     margin-top: 30px;
 }
